@@ -16,7 +16,7 @@ public class Search_Box_Class {
 		driver.manage().window().maximize();
 		driver.get("https:\\www.google.com");
 		Thread.sleep(3000);
-		driver.findElement(By.name("q")).sendKeys("java");
+		driver.findElement(By.name("q")).sendKeys("جافا");
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 
 		// to print the first result
